@@ -22,3 +22,13 @@ gathered resources and acquired score as well as the remaining HPs of
 all walls and titans as well as each titan’s distance from the wall. The
 player can also see the approaching titans in order, these approaching
 titans will be added to the lanes in the upcoming turns.
+
+Each lane will have a danger level that can be calculated based on the
+number and types of titans inside this lane.
+In the player’s base, the player will have the option to see all the available
+types of weapons and can choose to buy and deploy them into their
+choice of an active lane. The player should be able to view the currently
+gathered resources and acquired score as well as the remaining HPs of
+all walls and titans as well as each titan’s distance from the wall. The
+player can also see the approaching titans in order, these approaching
+titans will be added to the lanes in the upcoming turns.
