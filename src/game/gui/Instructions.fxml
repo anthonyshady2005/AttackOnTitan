@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.gui.Start">
+   <children>
+      <TextArea editable="false" layoutX="-1.0" prefHeight="600.0" prefWidth="1300.0" text="This game takes place in an imaginary scenario where the titans breached their way throughout Wall Maria and reached the northern border of WallRose at the Utopia District. The human forces stationed in Utopia engagethe titans in battle for one last hope of preventing the titans from breaching Wall Rose. The humans fight by deploying different types of Anti-Titan weapons in order to stop the Titan’s onslaught and keep Utopia’s(and Wall Rose’s) walls safe. Your mission is to defend the walls from being destroyed by deploying weapons from the weapon shop into the lanes in order to get rid of the incoming titans. Each time you kill a titan, you will gain resources which can be used in turn to buy more weapons. There are 4 types of titans that have different HP, speed, damage and resources value. There are also 4 different type of weapons that have different damage and price values and different attack actions, so choose your weapons wisely. Each turn you will have the choice of purchasing a weapon into a lane or passing the turn, and then the titans will move closer to the wall. If the titans reached the wall, they will inflict damge on the HP of the wall. When the wall is destroyed ,the equivalent lane will be lost and if all the lanes are lost, the game will end." wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="568.0" layoutY="436.0" mnemonicParsing="false" onAction="#returnToMenu" prefHeight="95.0" prefWidth="168.0" text="Return">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
